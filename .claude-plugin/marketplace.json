@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "luxuajs",
+  "description": "Plugins del equipo de luxuajs para Claude Code.",
+  "owner": { "name": "Juan Sanabria" },
+  "plugins": [
+    {
+      "name": "dbc",
+      "description": "Design by contract: el openapi.yml manda; cola de tareas, planes por tarea (Opus planifica, Sonnet implementa) y estilo SOLID/DRY/KISS con OWASP Top 10:2025.",
+      "source": "./plugins/dbc",
+      "category": "development"
+    }
+  ]
+}
